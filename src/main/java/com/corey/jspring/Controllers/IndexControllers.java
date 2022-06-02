@@ -10,4 +10,10 @@ public class IndexControllers {
         return "Index";
 
     }
+    @GetMapping("/NumberCruncher")
+    public String NumberCruncher(Model model){
+        return "Layouts/NumberCruncher/Index";
+    }
+
 }
+
